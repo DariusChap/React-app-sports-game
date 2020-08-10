@@ -1,26 +1,54 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Game from './components/game/Game';
+import Blockerlogo from './assets/images/Lebron-blockers.jpeg';
+import Stealerlogo from './assets/images/CP3-Stealers.jpg';
+import Shooterlogo from './assets/images/Steph-Shooters.jpg';
+import Dunkerlogo from './assets/images/MJ-Dunkers.jpg';
 
-function App() {
+
+
+function App(props) {
+  const blockers = {
+      name: 'Strong Blockers',
+      logoSrc: Blockerlogo
+  }
+
+  const stealers = {
+      name: 'Smooth Stealers',
+      logoSrc: Stealerlogo
+  }
+
+  const shooters = {
+      name: 'Lethal Shooters',
+      logoSrc: Shooterlogo
+  }
+
+  const dunkers = {
+      name: 'High Jumpers',
+      logoSrc: Dunkerlogo
+      // Images from google.com
+
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+      <div className="App">
+      
+          <Game
+              venue="Hardwood War"
+              homeTeam={stealers}
+              awayTeam={blockers}
+          />
+
+          <Game
+              venue="Mamba Arena"
+              homeTeam={shooters}
+              awayTeam={dunkers}
+          />
+      </div>
+  )
 }
+
+
+
 
 export default App;
