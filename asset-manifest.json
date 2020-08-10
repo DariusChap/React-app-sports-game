@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/React-app-sports-game/static/css/main.bf0bc4e5.chunk.css",
+    "main.js": "/React-app-sports-game/static/js/main.b4ce4cbe.chunk.js",
+    "main.js.map": "/React-app-sports-game/static/js/main.b4ce4cbe.chunk.js.map",
+    "runtime-main.js": "/React-app-sports-game/static/js/runtime-main.422c02b6.js",
+    "runtime-main.js.map": "/React-app-sports-game/static/js/runtime-main.422c02b6.js.map",
+    "static/js/2.e3c81512.chunk.js": "/React-app-sports-game/static/js/2.e3c81512.chunk.js",
+    "static/js/2.e3c81512.chunk.js.map": "/React-app-sports-game/static/js/2.e3c81512.chunk.js.map",
+    "index.html": "/React-app-sports-game/index.html",
+    "precache-manifest.131d340f9a7d40ab0baa40528fc287d0.js": "/React-app-sports-game/precache-manifest.131d340f9a7d40ab0baa40528fc287d0.js",
+    "service-worker.js": "/React-app-sports-game/service-worker.js",
+    "static/css/main.bf0bc4e5.chunk.css.map": "/React-app-sports-game/static/css/main.bf0bc4e5.chunk.css.map",
+    "static/js/2.e3c81512.chunk.js.LICENSE.txt": "/React-app-sports-game/static/js/2.e3c81512.chunk.js.LICENSE.txt",
+    "static/media/Basketball_Bounce_Sound_Effect.mp3": "/React-app-sports-game/static/media/Basketball_Bounce_Sound_Effect.6247aedc.mp3",
+    "static/media/Basketball_Net_Swish_Sound_Effect.mp3": "/React-app-sports-game/static/media/Basketball_Net_Swish_Sound_Effect.89703d43.mp3",
+    "static/media/CP3-Stealers.jpg": "/React-app-sports-game/static/media/CP3-Stealers.a61e9787.jpg",
+    "static/media/Lebron-blockers.jpeg": "/React-app-sports-game/static/media/Lebron-blockers.f69610da.jpeg",
+    "static/media/MJ-Dunkers.jpg": "/React-app-sports-game/static/media/MJ-Dunkers.dfec87d0.jpg",
+    "static/media/Pacman_Eating_Cherry_Sound_Effect.mp3": "/React-app-sports-game/static/media/Pacman_Eating_Cherry_Sound_Effect.a86fee25.mp3",
+    "static/media/Steph-Shooters.jpg": "/React-app-sports-game/static/media/Steph-Shooters.e1de8abe.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.422c02b6.js",
+    "static/js/2.e3c81512.chunk.js",
+    "static/css/main.bf0bc4e5.chunk.css",
+    "static/js/main.b4ce4cbe.chunk.js"
+  ]
+}
